@@ -1,7 +1,7 @@
 import utils from '../../helpers/utils';
 import './sleep.scss';
 
-let energy = 100;
+let energy = 50;
 
 const buildSleepQuad = () => {
   let domString = '<div class="sleeping">';

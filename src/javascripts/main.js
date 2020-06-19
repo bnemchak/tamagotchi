@@ -6,10 +6,10 @@ import play from './components/play/play';
 import sleep from './components/sleep/sleep';
 
 const init = () => {
-  eat.eatQuad();
-  fight.fightQuad();
-  play.playQuad();
-  sleep.sleepQuad();
+  eat.buildEatQuad();
+  fight.buildFightQuad();
+  play.buildPlayQuad();
+  sleep.buildSleepQuad();
 };
 
 init();

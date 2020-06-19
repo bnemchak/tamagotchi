@@ -1,7 +1,7 @@
 import utils from '../../helpers/utils';
 import './play.scss';
 
-let fun = 100;
+let fun = 50;
 
 const buildPlayQuad = () => {
   let domString = '<div class="playing">';
@@ -17,13 +17,13 @@ const buildPlayQuad = () => {
 
 const clickVeryButtonEvent = (e) => {
   e.preventDefault();
-  fun = Math.main(fun + 50, 100);
+  fun = Math.min(fun + 50, 100);
   buildPlayQuad();
 };
 
 const clickSortaButtonEvent = (e) => {
   e.preventDefault();
-  fun = Math.main(fun + 2, 100);
+  fun = Math.min(fun + 2, 100);
   buildPlayQuad();
 };
 

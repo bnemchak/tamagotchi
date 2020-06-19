@@ -17,7 +17,7 @@ const buildEatQuad = () => {
 
 const clickVeggiesButtonEvent = (e) => {
   e.preventDefault();
-  full = Math.main(full + 10, 100);
+  full = Math.min(full + 10, 100);
   buildEatQuad();
 };
 
