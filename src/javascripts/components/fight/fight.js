@@ -17,7 +17,7 @@ const buildFightQuad = () => {
 
 const clickRunButtonEvent = (e) => {
   e.preventDefault();
-  strength = Math.main(strength + 1, 100);
+  strength = Math.min(strength + 1, 100);
   buildFightQuad();
 };
 
